@@ -7,33 +7,32 @@ int main()
 
 {
  cout<<"KSIAZKA ADRESOWA"<<endl;
- 
+
  string imie,nazwisko,ulica;
  int numer_domu;
- 
- 
+
+
  cout<<"Podaj imie: ";
  cin>>imie;
- 
+
  cout<<endl<<"Podaj nazwisko: ";
  cin>>nazwisko;
- 
+
  cout<<"\npodaj nazwe ulicy: ";
  cin>>ulica;
- 
+
  cout<<"Podaj numer domu/mieszkania: ";
  cin>>numer_domu;
- 
+
  cout<<endl<<"\n\nPODSUMOWANIE:";
  cout<<"\n------------------------------"<<endl;
  cout<<"imie: "<<imie<<endl;
  cout<<"nazwisko: "<<nazwisko<<endl;
  cout<<"ulica: "<<ulica<<endl;
  cout<<"numer domu/mieszkania: "<<numer_domu<<endl;
- 
- 
- 
- 
- 
- return 0;   
+
+
+
+getchar(); getchar(); system("pause");
+ return 0;
 }
